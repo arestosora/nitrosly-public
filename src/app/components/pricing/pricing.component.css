@@ -1,0 +1,19 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.text {
+    position: absolute;
+    top: -270px; /* Ajusta la posición vertical según sea necesario */
+    z-index: 1; /* Asegura que el texto esté encima de las tarjetas */
+    color: white; /* Cambia el color del texto a blanco */
+}
+
+.card {
+    margin: -200px 10px 0 10px;  /* Ajusta el margen según sea necesario */
+    z-index: 0; /* Asegura que las tarjetas estén detrás del texto */
+}
